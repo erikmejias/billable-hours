@@ -1,0 +1,10 @@
+name = "fs-billable-hours-dev"
+type = "webpack"
+account_id = "f028b372f8732e849f77187ad5b8b687"
+workers_dev = true
+site = {bucket = "./build",entry-point = "./workers-site"}
+
+[env.production]
+name = "fs-billable-hours"
+zone_id = 'a74d293e80b22abaed101eb3b35b35ae'
+route = "billable.finsweet.com/*"
